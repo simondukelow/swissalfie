@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>contact — swissalfie</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <div class="brand"><span class="brand-mark"></span>swissalfie</div>
+    <div class="navlinks">
+      <a href="index.html">home</a>
+      <a href="blog.html">blog</a>
+      <a href="projects.html">projects</a>
+      <a href="contact.html" class="active">contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap" style="padding-top:48px; max-width:560px;">
+  <span class="eyebrow">send transmission</span>
+  <h1>Contact</h1>
+  <p class="muted">Get in touch — questions, feedback, or just to say hi.</p>
+
+  <div class="panel" style="margin-top:24px;">
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
+      <label for="name">name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" class="btn" style="margin-top:20px;">send</button>
+    </form>
+  </div>
+
+  <div style="margin-top:20px;">
+    <span class="tag">youtube: SwissAlfie</span>
+    <span class="tag">discord: [placeholder]</span>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">&copy; <span id="year"></span> swissalfie.ch</div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

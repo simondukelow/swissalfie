@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>swissalfie</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <div class="brand"><span class="brand-mark"></span>swissalfie</div>
+    <div class="navlinks">
+      <a href="index.html" class="active">home</a>
+      <a href="blog.html">blog</a>
+      <a href="projects.html">projects</a>
+      <a href="contact.html">contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap hero">
+  <div class="terminal">&gt; loading profile: swissalfie<span class="cursor"></span></div>
+  <h1>Hey, I'm Alfie.</h1>
+  <p class="muted" style="max-width:520px;">
+    Based in Switzerland. I make stop-motion animations with Minecraft,
+    build characters and sets in Blender, and rig up automations to make
+    it all move. This is where I post the results.
+  </p>
+  <a href="projects.html" class="btn">view projects</a>
+</div>
+
+<div class="wrap">
+  <div class="panel">
+    <span class="eyebrow"><span class="status-dot"></span>status: online</span>
+    <h2>About</h2>
+    <p>
+      I make Minecraft stop-motion animation — modeling characters and
+      builds in Blender, then animating them frame by frame. I also build
+      automations (redstone contraptions and render/animation pipelines)
+      to speed up the boring parts so I can spend more time on the actual
+      story and characters.
+    </p>
+    <div>
+      <span class="tag">stop motion</span>
+      <span class="tag">minecraft</span>
+      <span class="tag">blender</span>
+      <span class="tag">automation</span>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="panel">
+      <span class="eyebrow">latest post</span>
+      <h3>Building my first character rig in Blender</h3>
+      <p class="muted">What I learned taking a Minecraft character from a blocky model to something that actually moves.</p>
+      <a href="blog.html">read more &rarr;</a>
+    </div>
+    <div class="panel">
+      <span class="eyebrow">featured project</span>
+      <h3>Redstone render farm</h3>
+      <p class="muted">An in-game automation setup that helps speed up my stop-motion workflow.</p>
+      <a href="projects.html">see projects &rarr;</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">&copy; <span id="year"></span> swissalfie.ch</div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

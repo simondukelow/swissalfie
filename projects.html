@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>projects — swissalfie</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <div class="brand"><span class="brand-mark"></span>swissalfie</div>
+    <div class="navlinks">
+      <a href="index.html">home</a>
+      <a href="blog.html">blog</a>
+      <a href="projects.html" class="active">projects</a>
+      <a href="contact.html">contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap" style="padding-top:48px;">
+  <span class="eyebrow">quest log</span>
+  <h1>Projects</h1>
+  <p class="muted" style="max-width:480px;">Things I've built, things I'm building, things I want to build.</p>
+
+  <div class="grid" style="margin-top:24px;">
+    <div class="panel">
+      <span class="tag">in progress</span>
+      <h3>Stop-motion short film</h3>
+      <p class="muted">A short animated story with original characters, built and animated in Minecraft and Blender.</p>
+      <a href="#">view &rarr;</a>
+    </div>
+
+    <div class="panel">
+      <span class="tag">complete</span>
+      <h3>Redstone render farm</h3>
+      <p class="muted">An automation build in Minecraft that speeds up frame capture for stop-motion sequences.</p>
+      <a href="#">view &rarr;</a>
+    </div>
+
+    <div class="panel">
+      <span class="tag">complete</span>
+      <h3>Character model pack</h3>
+      <p class="muted">Custom characters modeled in Blender and rigged for stop-motion animation.</p>
+      <a href="#">view &rarr;</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">&copy; <span id="year"></span> swissalfie.ch</div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

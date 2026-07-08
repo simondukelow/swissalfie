@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>blog — swissalfie</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <div class="brand"><span class="brand-mark"></span>swissalfie</div>
+    <div class="navlinks">
+      <a href="index.html">home</a>
+      <a href="blog.html" class="active">blog</a>
+      <a href="projects.html">projects</a>
+      <a href="contact.html">contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap" style="padding-top:48px;">
+  <span class="eyebrow">log entries</span>
+  <h1>Blog</h1>
+  <p class="muted" style="max-width:480px;">Thoughts, updates, and whatever's worth writing down.</p>
+
+  <div style="margin-top:24px;">
+    <div class="panel">
+      <span class="entry-date">[Month Day, Year]</span>
+      <h3>Building my first character rig in Blender</h3>
+      <p class="muted">Taking a Minecraft character from a blocky in-game model to a rigged Blender figure I can actually pose and animate frame by frame.</p>
+      <a href="#">read post &rarr;</a>
+    </div>
+
+    <div class="panel">
+      <span class="entry-date">[Month Day, Year]</span>
+      <h3>Setting up a redstone render farm</h3>
+      <p class="muted">How an in-game automation setup shaves hours off my stop-motion workflow — and what broke the first three times I tried it.</p>
+      <a href="#">read post &rarr;</a>
+    </div>
+
+    <div class="panel">
+      <span class="entry-date">[Month Day, Year]</span>
+      <h3>Blender vs in-game builds: when to use which</h3>
+      <p class="muted">Some sets are faster to build directly in Minecraft, others need Blender's precision. Here's how I decide.</p>
+      <a href="#">read post &rarr;</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">&copy; <span id="year"></span> swissalfie.ch</div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
